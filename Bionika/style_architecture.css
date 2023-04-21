@@ -1,0 +1,150 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----header----*/
+.header
+{
+    min-height: 40vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(picture/arch.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1
+{
+    font-size: 60px;
+}
+.text-box p
+{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+@media(max-width: 700px)
+{
+    .text-box 
+    {
+        top: 25%;
+        left: 50%;
+    }
+    .text-box h1
+    {
+        font-size: 30px;
+        
+    }
+}
+
+/*-------ARCHITECTURE-----------*/
+.architecture
+{
+    min-height: 100vh;
+    width:100%;
+    
+}
+
+.row
+{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left:8%;
+    
+}
+.col
+{
+    flex-basis: 50%;
+    min-width: 250px;
+    
+}
+.col2
+{
+    flex-basis: 50%;
+    min-width: 250px;
+    
+}
+.text
+{
+    width:100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.text h1
+{
+    padding-top: 4%;
+    font-size: 50px;
+}
+.text h2
+{
+    font-size: 30px;
+}
+.text p
+{
+    padding-top: 4%;
+    font-size: 15px;
+}
+.arch_photo img
+{
+   padding-left: 2.7%;
+}
+.imgbotarch
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(picture/mount.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -0.2cm;
+}
+
+/*-------------------------Stadion--------------------*/
+
+
+
+/*--rectangle---*/
+.rectangle
+{
+    
+    min-height: 10vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    
+    
+}
+.rectangle p{
+    padding-top: 2%;
+    color: #ffffff;
+    font-size: 15px;
+}
+@media(max-width: 700px)
+{
+    .rectangle
+{
+    margin-top:50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 10px;
+    
+}
+}

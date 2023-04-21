@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bionika_projekt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src ="home.js"></script>
+</head>
+<body onload="home();"></body>
+<section class="header"> 
+    <nav>  <!--hiperłącze, można kliknąć w logo-->
+        <a href="https://www.polsl.pl/rib/"><img src="picture/iblogo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">O NAS</a></li>
+                <li><a href="">KONTAKT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+<div class="text-box">
+    <h1>
+        Inspiracje naturą w różnych dziedzinach życia 
+    </h1>
+    <p>Gdy człowiekowi kończyły się pomysły, starał się znajdować rozwiązania w otaczającym go świecie.
+        W ten sposób powstał niejeden wynalazek i rozwiązany został niejeden problem naukowy. 
+    </p>
+    <a href="#one"class="hero-btn">Przejdź dalej</a>
+</div>
+
+</section> 
+
+<!----------start------------>
+<section class="course" id="one">
+    <h1>Bionika</h1>
+    <p>Nauka zajmująca się wykorzystywaniem procesów biologicznych w technice, a w szczególności w automatycznym sterowaniu, i budowaniu urządzeń technicznych na wzór organizmów żywych.</p>
+</section>
+    
+
+<!----themes-->
+<section class ="campus">
+    <h1>
+        Inspiracje naturą
+    </h1>
+    <p>
+    </p>
+
+    <div class="row">
+        <div class="campus-col">
+            <a href="medicine.html"><img src ="serces.jpg"></a>
+            <div class="layer">
+                <a href="medicine.html"><h3>MEDYCYNA</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src ="ars.jpg">
+            <div class="layer">
+                <h3>
+                    <a href="architecture.html"><h3>ARCHITEKTURA</h3></a>
+                </h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src ="picture/techs.jpg" width="625" height="358">
+            <div class="layer">
+                <a href="architecture.html"><h3>TECHNIKA</h3></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <img src ="bi.jpg">
+            <div class="layer">
+                <a href="architecture.html"><h3></h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src ="bi.jpg">
+            <div class="layer">
+                <h3>
+                    LONDON
+                </h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src ="bi.jpg">
+            <div class="layer">
+                <h3>
+                    LONDON
+                </h3>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</section>
+
+
+<!------medicine-->
+<section class="medicine"> 
+
+    <div class="text_medicine">
+        <h1>
+            
+        </h1>
+        <p>
+        </p>
+    </div>
+    
+    
+</section> 
+
+<!------architecture-->
+<section class="architecture"> 
+
+<div class="text-box">
+    
+    
+        
+</div>
+
+</section> 
+
+
+
+
+<!----------------------JavaScript------------------------>
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+</script>
+<!------------------Rectangle------->
+<section class="rectangle">
+    <p>2022 &copy; Emilia Wojciechowska, Michał Drozd - Projekt Bionika</p>
+</section>
+
+
+
+
+</body>
+</html>

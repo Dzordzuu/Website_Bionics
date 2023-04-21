@@ -1,0 +1,201 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----header----*/
+.header
+{
+    min-height: 40vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(picture/serce.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1
+{
+    font-size: 50px;
+}
+.text-box p
+{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+@media(max-width: 700px)
+{
+    .text-box 
+    {
+        top: 25%;
+        left: 50%;
+    }
+    .text-box h1
+    {
+        font-size: 30px;
+        
+    }
+}
+/*luke arm*/
+.luke_arm
+{
+    min-height: 100vh;
+    width:84%;
+    margin-top: 5%;
+    margin-left:8%;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.col
+{
+    flex-basis: 50%;
+    min-width: 250px;
+    
+}
+.col2
+{
+    flex-basis: 50%;
+    min-width: 250px;
+    
+}
+.luke_arm text
+{
+    width:100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.text h1
+{
+    font-size: 50px;
+}
+.text p
+{
+    padding-top: 5%;
+    font-size: 15px;
+}
+.film
+{
+    width:83%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-left: 20%;
+    padding-top: 5%;
+
+}
+.textund
+{
+    padding-top: 30px;
+}
+.textund h1
+{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.textund p
+{
+    font-size: 15px;
+}
+.arm_photo img
+{
+   padding-left: 50px;
+}
+/*stop*/
+.stop
+{
+    min-height: 30vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(picture/2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 2%;
+}
+/*--------------glove---------------*/
+
+.glove 
+{
+    min-height: 90vh;
+    width:84%;
+    margin-left:8%;
+}
+.glove p
+{
+    font-size: 15px;
+    padding-top: 2%;
+}
+.glove h1
+{
+    font-size: 50px;
+    padding-top: 2%;
+}
+.glove h2
+{
+    font-size: 30px;
+}
+.g_photo
+{
+padding-top: 50px;
+}
+.filmg
+{
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-top:6.4%;
+}
+
+
+
+/*--rectangle---*/
+.rectangle
+{
+   
+    min-height: 10vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    
+    
+}
+.rectangle p{
+    padding-top: 2%;
+    color: #ffffff;
+    font-size: 15px;
+}
+@media(max-width: 700px)
+{
+    .rectangle
+{
+    margin-top:50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 10px;
+    
+}
+}
